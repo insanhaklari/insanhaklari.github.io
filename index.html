@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaos++ | Eşitlik ve Özgürlük</title>
+    <title>Kaos++ | Özgürlük İçin Ses Ver</title>
     <style>
         :root {
             --primary-color: #6a11cb;
             --secondary-color: #2575fc;
-            --bg-color: #0f172a; /* Daha modern, koyu bir arka plan */
+            --bg-color: #0f172a;
             --card-bg: #1e293b;
             --text-color: #f1f5f9;
             --white: #ffffff;
@@ -16,20 +16,12 @@
         }
 
         body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            font-family: 'Segoe UI', system-ui, sans-serif;
             margin: 0;
             padding: 0;
             background-color: var(--bg-color);
             color: var(--text-color);
             line-height: 1.6;
-        }
-
-        header {
-            background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
-            color: var(--white);
-            padding: 4rem 1.5rem;
-            text-align: center;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
         }
 
         .rainbow-bar {
@@ -41,70 +33,62 @@
             z-index: 1000;
         }
 
+        header {
+            background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+            color: var(--white);
+            padding: 5rem 1.5rem 3rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
         .container {
-            max-width: 900px;
+            max-width: 850px;
             margin: 2rem auto;
             padding: 0 1.5rem;
         }
 
         .card {
             background: var(--card-bg);
-            padding: 2.5rem;
-            border-radius: 20px;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
-            margin-bottom: 2.5rem;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+            margin-bottom: 2rem;
             border: 1px solid rgba(255,255,255,0.05);
         }
 
-        h1 { font-size: 3rem; margin-bottom: 0.5rem; letter-spacing: -1px; }
-        h2 { color: #818cf8; font-size: 1.8rem; margin-top: 0; }
-
-        /* DEVASA BUTON TASARIMI */
-        .big-link-container {
-            text-align: center;
-            margin: 3rem 0;
-        }
+        h1 { font-size: 3.5rem; margin: 0; letter-spacing: -2px; text-transform: uppercase; }
+        h2 { color: var(--accent); font-size: 1.8rem; margin-top: 0; }
 
         .btn-massive {
             display: block;
             background: linear-gradient(45deg, #ff4757, #ff6b81);
             color: white;
-            padding: 30px 20px;
+            padding: 25px;
             text-decoration: none;
-            border-radius: 15px;
-            font-size: 1.8rem;
+            border-radius: 12px;
+            font-size: 1.5rem;
             font-weight: 800;
-            text-transform: uppercase;
-            transition: all 0.3s ease;
-            box-shadow: 0 15px 35px rgba(255, 71, 87, 0.4);
-            border: 2px solid rgba(255,255,255,0.1);
+            text-align: center;
+            transition: 0.3s;
+            box-shadow: 0 10px 25px rgba(255, 71, 87, 0.3);
+            margin: 2rem 0;
         }
 
         .btn-massive:hover {
-            transform: translateY(-5px) scale(1.02);
-            box-shadow: 0 20px 45px rgba(255, 71, 87, 0.6);
-            background: linear-gradient(45deg, #ff6b81, #ff4757);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(255, 71, 87, 0.5);
         }
 
-        .quote {
-            font-style: italic;
-            border-left: 4px solid #818cf8;
-            padding-left: 1.5rem;
-            margin: 1.5rem 0;
-            color: #cbd5e1;
+        .warn-list { list-style: none; padding: 0; }
+        .warn-list li { 
+            background: rgba(255, 71, 87, 0.1); 
+            margin: 10px 0; 
+            padding: 15px; 
+            border-radius: 8px; 
+            border-left: 5px solid var(--accent);
         }
 
-        .footer {
-            text-align: center;
-            padding: 3rem;
-            opacity: 0.6;
-            font-size: 0.85rem;
-        }
-
-        @media (max-width: 600px) {
-            h1 { font-size: 2rem; }
-            .btn-massive { font-size: 1.2rem; padding: 20px 10px; }
-        }
+        .footer { text-align: center; padding: 2rem; opacity: 0.5; font-size: 0.8rem; }
     </style>
 </head>
 <body>
@@ -112,43 +96,45 @@
 <div class="rainbow-bar"></div>
 
 <header>
-    <h1>Kaos++</h1>
-    <p style="font-size: 1.2rem; opacity: 0.9;">Dijital Özgürlük ve Eşit Haklar Mücadelesi</p>
+    <h1>KAOS++</h1>
+    <p>Geleceğimizi Karartmanıza İzin Vermeyeceğiz.</p>
 </header>
 
 <div class="container">
-    
+
     <div class="card">
-        <h2>Biz Kimiz?</h2>
-        <p><strong>Kaos++</strong> dijital özgürlüğü savunan bir gruptur. İnsan haklarına aykırı olan bir şeye sessiz kalamazdık.</p>
-        <p>Varoluşumuzu ve haklarımızı kısıtlamaya çalışan her türlü girişime karşı dijital dünyada sesimizi yükseltmeye devam edeceğiz.</p>
+        <h2>Mevzu Ne?</h2>
+        <p>Bakın arkadaşlar, bu yeni yasa tasarısı bildiğin özgürlüğe blok koyma çabası. "Genel ahlak" falan filan diyerek bizi internetten, sokaktan, her yerden silmek istiyorlar. Kimin ne giydiğine, kimin neyi sevdiğine hapis cezasıyla karışamazsınız.</p>
+        
+        <p><strong>Neye hayır diyoruz?</strong></p>
+        <ul class="warn-list">
+            <li>Gökkuşağı paylaştın diye "özendirme suçu" sayılmasına <strong>HAYIR!</strong></li>
+            <li>Kendi hayatımız hakkındaki kararların başkaları tarafından verilmesine <strong>HAYIR!</strong></li>
+            <li>İnternetin bir sansür hapishanesine dönmesine <strong>HAYIR!</strong></li>
+        </ul>
+    </div>
+
+    <div class="card" style="text-align: center;">
+        <h2>DUR DE!</h2>
+        <p>21 kişi olduk bile. Sayımız arttıkça bizi görmezden gelemeyecekler. Sesini çıkar, imzanı at, bu saçmalığa ortak olma.</p>
+        
+        <a href="https://c.org/gkcWsZmG9n" class="btn-massive" target="_blank">
+            İMZA VER & SESİNİ DUYUR
+        </a>
+        
+        <p style="font-size: 0.8rem; opacity: 0.7;">*Link direkt Change.org kampanyasına gider.</p>
     </div>
 
     <div class="card">
-        <h2>Kampanyaya Destek Ver</h2>
-        <p>Yeni yasa tasarısı özgürlüklerimizi kısıtlıyor. Aşağıdaki linke tıklayarak imza kampanyasına katılabilir ve sesimizi duyurmamıza yardım edebilirsin:</p>
-        
-        <div class="big-link-container">
-            <a href="https://c.org/gkcWsZmG9n" class="btn-massive" target="_blank">
-                İMZA VER: c.org/gkcWsZmG9n
-            </a>
-        </div>
-        
-        <p style="text-align: center; font-size: 0.9rem; opacity: 0.8;">
-            *Link sizi güvenli bir şekilde Change.org sayfasına yönlendirecektir.
+        <p style="font-style: italic; text-align: center; margin: 0;">
+            "Sessizlik baskıyı besler. Biz susturulmaya çalışan her sesin yankısıyız."
         </p>
-    </div>
-
-    <div class="card">
-        <div class="quote">
-            "Sessizlik, baskıya verilen en büyük onaydır. Biz Kaos++ olarak susmuyoruz."
-        </div>
     </div>
 
 </div>
 
 <div class="footer">
-    <p>&copy; 2026 | Kaos++ Digital Identity | Powered by GitHub Pages</p>
+    <p>&copy; 2026 | Kaos++ Digital Identity | Sansüre Karşı Buradayız.</p>
 </div>
 
 </body>
